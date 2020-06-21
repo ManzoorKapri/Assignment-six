@@ -183,32 +183,67 @@
 
 // task4 
 
-var bigDecimal = Math.random();
-var improvedNum = (bigDecimal * 6) + 1;
-var numberOfStars = Math.floor(improvedNum);
-if (numberOfStars === 1)
-alert(".");
-if (numberOfStars === 2)
-alert("..");
-if (numberOfStars === 3)
-alert(":.");
-if (numberOfStars === 4)
-alert("::");
-if (numberOfStars === 5)
-alert("::.");
-if (numberOfStars === 6)
-alert(":::");
+// var bigDecimal = Math.random();
+// var improvedNum = (bigDecimal * 6) + 1;
+// var numberOfStars = Math.floor(improvedNum);
+// if (numberOfStars === 1)
+// alert(".");
+// if (numberOfStars === 2)
+// alert("..");
+// if (numberOfStars === 3)
+// alert(":.");
+// if (numberOfStars === 4)
+// alert("::");
+// if (numberOfStars === 5)
+// alert("::.");
+// if (numberOfStars === 6)
+// alert(":::");
 
-// task 5 
+// // task 5 
 
 
-var headUser = prompt("Enter Heads Username.");
-var tailUser = prompt("Enter tails Username");
-var toss = Math.random() * 2;
-var floor = Math.floor(toss);
-if(floor === 0){
-    alert("Heads " + headUser + " win the toss");
-}esle
-{
-    alert("Tail " + tailUser + " win the toss");
-}
+// var headUser = prompt("Enter Heads Username.");
+// var tailUser = prompt("Enter tails Username");
+// var toss = Math.random() * 2;
+// var floor = Math.floor(toss);
+// if(floor === 0){
+//     alert("Heads " + headUser + " win the toss");
+// }esle
+// {
+//     alert("Tail " + tailUser + " win the toss");
+// }
+
+
+// task 6 
+
+
+// var bigDecimal = Math.random();
+// var improvedNum = (bigDecimal * 100) + 1;
+// var ivalue = Math.floor(improvedNum);
+// alert(ivalue);
+
+// task 7 
+
+// pt('Enter your weight');
+// var weight = Math.random();
+// var userWeight = (input * 10);
+// if(userWeight >=100)
+// alert(userWeight + " this wieght is good");
+
+// task 7 
+
+// var input = prompt('Enter your weight');
+// var weight = Math.random();
+// var userWeight = (input * 10);
+// if(userWeight =100)
+// alert(userWeight + " this wieght is good");
+
+// task 8 
+// var userInput = prompt('Write a number between 1-10');
+// userInput = Math.random();
+// if(userInput === "2"){
+//         alert("Congratulation you are lucky");
+//     }else
+//     {
+//         alert(userInput + " sorry try again");
+//     }
