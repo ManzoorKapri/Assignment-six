@@ -198,3 +198,17 @@ if (numberOfStars === 5)
 alert("::.");
 if (numberOfStars === 6)
 alert(":::");
+
+// task 5 
+
+
+var headUser = prompt("Enter Heads Username.");
+var tailUser = prompt("Enter tails Username");
+var toss = Math.random() * 2;
+var floor = Math.floor(toss);
+if(floor === 0){
+    alert("Heads " + headUser + " win the toss");
+}esle
+{
+    alert("Tail " + tailUser + " win the toss");
+}
