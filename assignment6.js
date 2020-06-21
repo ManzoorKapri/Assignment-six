@@ -159,3 +159,42 @@
 // var cs = "The quick brown fox jumps over the lazy dog"
 // var count = cs.split('the').length
 // document.write(count);
+
+// chapter 26- 30 
+
+// task1
+
+// var pi = prompt("Write positive number here");
+// var r = Math.round(pi);
+// pi2 = Math.floor(.00001);
+// document.write("number: " + pi + "<br>" + "Round off value:" + r + "<br>" + "floor value:" + r + "<br>" +"Ceil value: " + pi2);
+
+// task2 
+// var pi = prompt("Write negative number here", 'Your result is: ');
+// var r = Math.round(-pi);
+// pi2 = Math.floor(0.00001);
+// document.write("number: " + pi + "<br>" + "Round off value:" + r + "<br>" + "floor value:" + r + "<br>" +"Ceil value: " + pi2);
+
+// task3 
+
+// var d = prompt('Write absolute value');
+// var e = Math.round(-d);
+// document.write('the absolute value of your input is:  ' + d);
+
+// task4 
+
+var bigDecimal = Math.random();
+var improvedNum = (bigDecimal * 6) + 1;
+var numberOfStars = Math.floor(improvedNum);
+if (numberOfStars === 1)
+alert(".");
+if (numberOfStars === 2)
+alert("..");
+if (numberOfStars === 3)
+alert(":.");
+if (numberOfStars === 4)
+alert("::");
+if (numberOfStars === 5)
+alert("::.");
+if (numberOfStars === 6)
+alert(":::");
