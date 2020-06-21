@@ -247,3 +247,25 @@
 //     {
 //         alert(userInput + " sorry try again");
 //     }
+
+
+// chapter 31-34 
+
+// task 1 
+
+// var rightNow = new Date();
+// document.write(rightNow);
+
+// // task2 
+
+//  var rightNow = new Date();
+//  var theDay = rightNow.getMonth();
+//  var monthString = rightNow.toString("December");
+// document.write("<br>" + monthString + "<br>");
+
+// // task3 
+
+// var rightNowDate = new Date();
+// document.write(rightNow);
+
+
